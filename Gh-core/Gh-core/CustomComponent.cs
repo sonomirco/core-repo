@@ -10,7 +10,7 @@ namespace Gh_core
     public abstract class CustomComponent : GH_Component
     {
         protected CustomComponent(string name, string description, string subCategory)
-            : base(name, name, description, "GhModule", subCategory)
+            : base(name, name, description, "SubModule", subCategory)
         {
         }
 
